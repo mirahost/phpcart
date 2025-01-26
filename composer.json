@@ -1,5 +1,5 @@
 {
-    "name": "anam/phpcart",
+    "name": "mirahost/phpcart",
     "description": "Simple framework agnostic shopping cart",
     "keywords": [
         "Cart",
@@ -8,7 +8,7 @@
         "Laravel shopping cart",
         "Laravel cart"
     ],
-    "homepage": "https://github.com/anam-hossain/phpcart",
+    "homepage": "https://github.com/mirahost/phpcart",
     "license": "MIT",
     "authors": [
         {
@@ -26,21 +26,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Anam\\Phpcart\\" : "src/" 
+            "Mirahost\\Phpcart\\" : "src/" 
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Anam\\Phpcart\\Tests\\": "tests"
+            "Mirahost\\Phpcart\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Anam\\Phpcart\\CartServiceProvider"
+                "Mirahost\\Phpcart\\CartServiceProvider"
             ],
             "aliases": {
-                "Cart": "Anam\\Phpcart\\Facades\\Cart"
+                "Cart": "Mirahost\\Phpcart\\Facades\\Cart"
             }
         }
     }
