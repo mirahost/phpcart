@@ -75,7 +75,7 @@ class Cart implements CartInterface
      * Set the current cart name
      *
      * @param  string  $instance  Cart instance name
-     * @return StudentVIP\Cart
+     * @return \Mirahost\Phpcart\Cart
      */
     public function named($name)
     {
@@ -310,7 +310,7 @@ class Cart implements CartInterface
      * @return void
      */
 
-    public function flash()
+    public function flush()
     {
         $this->clear();
     }
