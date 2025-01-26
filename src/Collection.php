@@ -84,7 +84,6 @@ class Collection extends IlluminateCollection
         if ($item['quantity'] < 1) {
             throw new Exception('Quantity can not be less than 1');
         }
-
     }
 
 }
