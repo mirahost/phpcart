@@ -1,5 +1,5 @@
 # PHPCart
-Simple framework agnostic shopping cart.
+Simple framework agnostic shopping cart. Forked from anam-hossain/phpcart to continue development.
 
 ## Features
 
@@ -18,11 +18,6 @@ PHPCart is available via Composer
 $ composer require anam/phpcart
 ```
 
-## Laravel Integrations
-
-Use the following dedicated laravel package for PHPCart.
-
-https://github.com/anam-hossain/lara-phpcart
 
 ## Usage
 
