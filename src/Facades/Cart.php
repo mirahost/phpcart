@@ -1,5 +1,5 @@
 <?php
-namespace Anam\Phpcart\Facades;
+namespace Mirahost\Phpcart\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

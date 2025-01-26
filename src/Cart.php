@@ -1,5 +1,5 @@
 <?php
-namespace Anam\Phpcart;
+namespace Mirahost\Phpcart;
 
 use Exception;
 use InvalidArgumentException;
@@ -21,7 +21,7 @@ class Cart implements CartInterface
     /**
      * Manage cart items
      *
-     * @var \Anam\Phpcart\Collection
+     * @var \Mirahost\Phpcart\Collection
      */
     protected $collection;
 
@@ -88,7 +88,7 @@ class Cart implements CartInterface
      * Add an item to the cart.
      *
      * @param  Array  $product
-     * @return \Anam\Phpcart\Collection
+     * @return \Mirahost\Phpcart\Collection
      */
     public function add(array $product)
     {
@@ -114,7 +114,7 @@ class Cart implements CartInterface
      * Update an item.
      *
      * @param  Array  $product
-     * @return \Anam\Phpcart\Collection
+     * @return \Mirahost\Phpcart\Collection
      */
     public function update(array $product)
     {
@@ -143,7 +143,7 @@ class Cart implements CartInterface
      * @param mixed $id
      * @param int $quantity
      *
-     * @return \Anam\Phpcart\Collection
+     * @return \Mirahost\Phpcart\Collection
      */
     public function updateQty($id, $quantity)
     {
@@ -160,7 +160,7 @@ class Cart implements CartInterface
      * @param mixed $id
      * @param float $price
      *
-     * @return \Anam\Phpcart\Collection
+     * @return \Mirahost\Phpcart\Collection
      */
     public function updatePrice($id, $price)
     {
@@ -191,7 +191,7 @@ class Cart implements CartInterface
     /**
      * Helper wrapper for cart items.
      *
-     * @return \Anam\Phpcart\Collection
+     * @return \Mirahost\Phpcart\Collection
      */
     public function items()
     {
@@ -201,7 +201,7 @@ class Cart implements CartInterface
     /**
      * Get all the items.
      *
-     * @return \Anam\Phpcart\Collection
+     * @return \Mirahost\Phpcart\Collection
      */
     public function getItems()
     {
@@ -287,7 +287,7 @@ class Cart implements CartInterface
     public function copy($cart)
     {
         if (is_object($cart)) {
-            if (!$cart instanceof \Anam\Phpcart\Cart) {
+            if (!$cart instanceof \Mirahost\Phpcart\Cart) {
                 throw new InvalidArgumentException("Argument must be an instance of " . get_class($this));
             }
 

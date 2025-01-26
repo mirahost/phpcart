@@ -1,10 +1,10 @@
 <?php
 
-namespace Anam\Phpcart\Tests;
+namespace Mirahost\Phpcart\Tests;
 
 use Exception;
 use InvalidArgumentException;
-use Anam\Phpcart\Cart;
+use Mirahost\Phpcart\Cart;
 use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Session\Storage\MockArraySessionStorage;
 

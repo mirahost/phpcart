@@ -1,5 +1,5 @@
 <?php
-namespace Anam\Phpcart;
+namespace Mirahost\Phpcart;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -8,7 +8,7 @@ class CartServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind('cart', function() {
-            return new \Anam\Phpcart\Cart;
+            return new \Mirahost\Phpcart\Cart;
         });
     }
 }

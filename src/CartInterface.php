@@ -1,5 +1,5 @@
 <?php
-namespace Anam\Phpcart;
+namespace Mirahost\Phpcart;
 
 interface CartInterface
 {

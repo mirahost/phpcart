@@ -1,9 +1,9 @@
 <?php
 
-namespace Anam\Phpcart\Tests;
+namespace Mirahost\Phpcart\Tests;
 
 use Exception;
-use Anam\Phpcart\Collection;
+use Mirahost\Phpcart\Collection;
 use PHPUnit\Framework\TestCase;
 
 class CollectionTest extends TestCase
