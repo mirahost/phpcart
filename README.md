@@ -26,7 +26,7 @@ $ composer require anam/phpcart
 The add method required `id`, `name`, `price` and `quantity` keys. However, you can pass any data that your application required.
 
 ```php
-use Anam\Phpcart\Cart;
+use Mirahost\Phpcart\Cart;
 
 $cart = new Cart();
 
